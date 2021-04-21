@@ -4,7 +4,7 @@ let option = {
 	min_delay : 500,
 	max_delay : 10000,
 	job_mindelay : 500,
-	timeout : 5000
+	job_timeout : 5000
 }
 
 let cooltimerA = new CoolTimer(option);
